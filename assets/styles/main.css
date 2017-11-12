@@ -3,13 +3,13 @@ body {
   background-color: #8D90AD;
   font-family: 'Roboto', sans-serif;;
 }
-body > span:nth-child(4), body > span:nth-child(6){
+#game > span{
   width:100%;
   font-size:35px;
   display:block;
   text-align: center;
 }
-body > div:nth-child(7){
+body > #game > #multicanvas {
   position:relative;
   margin:0 auto;
   width: 650px;
@@ -22,14 +22,14 @@ body > div:nth-child(7){
     body .slide-wrapper #slide-up {
       background-color: blue;
       width: 100%;
-      padding-top: 36.75%;
+      padding-top: 416px;
       position: relative;
       background: url("../img/bg01.png") no-repeat;
       background-size:cover;}
     body .slide-wrapper #slide-down {
       background-color: red;
       width: 100%;
-      padding-top: 30.5%;
+      padding-top: 330px;
       position: relative;
       background: url("../img/bg02.png") no-repeat;
       background-size:cover};}
@@ -44,12 +44,14 @@ body > div:nth-child(7){
   body #rules {
     z-index:99999;
     background-color:rgba(0, 0, 0, 0.78);
-    position:absolute;
     width:95%;
     font-size:30px;
     padding: 5%;
     height:100%;
     color:#fff;
+  }
+  body #game {
+    display:none;
   }
   #rules > h1, #rules > ul, #rules > p:nth-child(6) {
     text-align: center;

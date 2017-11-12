@@ -1,10 +1,7 @@
 $("#doit").click(function(){
     $("#rules").fadeOut("slow");
-        setTimeout(function(){
-            $("#slide-up").slideUp(1000);
-            $("#slide-down").animate({top: "1000px"},1000);
-            setTimeout(function(){$(".slide-wrapper").addClass("hidden");},1100);
-        },1500);
+    $("#game").fadeIn("slow");
+    window.scrollTo(0,0)
 });
 
 /*

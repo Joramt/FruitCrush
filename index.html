@@ -11,9 +11,7 @@
 
 <body>
 <div class="slide-wrapper">
-    <div id="slide-up"></div>
 
-    <div id="slide-down"></div>
 
 </div>
 <div id="d-hole"></div>
@@ -46,12 +44,14 @@
     <p>Accumulez le plus grand nombre de point et tentez de battre votre score maximal !</p>
     <button id="doit">DO IT</button>
 </div>
+<div id="game">
 <span>Score: <span id="txt-score"> 0</span></span><br/>
 <span>High Score: <span id="txt-high-score"></span></span>
-<div>
+<div id ="multicanvas">
     <canvas id="bg-canvas" width="1000" height="1000" style="position: absolute; left: 0; top: 0; z-index: 0;"></canvas>
     <canvas id="board-canvas" width="1000" height="1000" style="position: absolute; left: 0; top: 0; z-index: 1;"></canvas>
     <canvas id="canvasSup" width="1000" height="1000" style="position: absolute; left: 0; top: 0; z-index: 1;"></canvas>
+</div>
 </div>
 <script src="assets/js/constant.js"></script>
 <script src="assets/js/entities.js"></script>
