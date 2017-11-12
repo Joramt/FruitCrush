@@ -12,4 +12,4 @@ Lots of good code snippet but also some rework to do. Definitely have to dig in 
 
 
 
-* this could change in the future ... or this coudldn't. 
+* * this could change in the future ... or this coudldn't. 
