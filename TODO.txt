@@ -1,0 +1,56 @@
+﻿TODO prioritaire
+
+(aucun)
+
+TODO assigné
+
+Laurent:
+
+(aucun)
+
+Jorel:
+
+- css pour encadrer la grille et delayer son affichage
+- son
+
+TODO future
+
+- detecter quand l'initialisation de la partie est terminé pour ensuite:
+    reseter le score
+    afficher le plateau
+- ajouter une animation(fade out) ou delaie lorsque des fruits sont détruit
+- exception dans createSuperTile(game, tile)
+- BUG (mineur) lorse que qu'on deplace des cases vide
+- Remplacer le pointage exponentiel par quelque chose de plus linéaire
+
+TODO terminé
+
+- images
+- match 4 et 5
+- delayer la supression des case pour bien afficher	la destruction en chaine
+- match intersection
+- agrandir la grandeur du jeu (fruit, tableaux...)
+- changer grille a 8x8?
+- delayer l'affichage du canvas
+- trouver des images de meilleur qualité
+- detecter partie perdu
+- interdire move illegal
+- cacher le fruit une fois ramasser pour ne pas afficher le fruit 2 fois
+- creer un super fruit lorsqu'il y a un match de 4
+    par la suite quand ces bloques sont detruit, une ranger ou colone entiere est detruit
+- pointage
+    highscore
+    local storage
+- glitch visuel quand on echape le fruit hors du canvas et on ramasse le meme ou un autre(mineur)
+- separer scrip.js en plusieur fichier
+- fix le score en debut de partie
+- gerer les partie perdu (la detection est faite, reste a resommencer la partie?)
+- regler les glitch d'affichage(changer la vitesse)
+
+
+TODO cancelé
+
+- toujour garder un pourcentage precis de fruit sur la grille
+- rebrasser
+- metter tout les fonctions relier a Game dans la classe Game et remplacer le parametre
+    game par this dans c'est fonctions

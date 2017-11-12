@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html lang="FR">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="author" content="Jorel Amthor - Jonhatan "/>
+    <title>STRAIGHT OUTTA TITLE</title>
+    <link rel="stylesheet" href="assets/styles/main.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+
+<body>
+<div class="slide-wrapper">
+    <div id="slide-up"></div>
+
+    <div id="slide-down"></div>
+
+</div>
+<div id="d-hole"></div>
+<div id="rules">
+    <h1>COMMENT JOUER ?</h1>
+    <p>Vous disposez d'un plateau de différents fruits et le but est d'en aligner le plus grand nombre possible
+    afin d'acquérir le plus grand nombre de point. La partie s'arrête dès lors qu'il n'y a plus assez de fruits à aligner.
+    Vous disposez des fruits suivants :</p>
+    <ul>
+        <li><img src="assets/images/game/banana.png" alt=""/></li>
+        <li><img src="assets/images/game/blueberry.png" alt=""/></li>
+        <li><img src="assets/images/game/grapes.png" alt=""/></li>
+        <li><img src="assets/images/game/orange.png" alt=""/></li>
+        <li><img src="assets/images/game/pear.png" alt=""/></li>
+        <li><img src="assets/images/game/pineapple.png" alt=""/></li>
+        <li><img src="assets/images/game/strawberry.png" alt=""/></li>
+    </ul>
+    <p>Lorsque vous alignez 4 fruits ou plus, ceux-ci deviennent des "Super fruit " ! Ceux ci ont des effets
+    devastateur, a vous de les découvrir tous ! ( essayez d'en aligner 5 par exemple )</p>
+    <ul>
+        <li><img src="assets/images/game/banana.png" alt=""/></li>
+        <li><img src="assets/images/game/banana.png" alt=""/></li>
+        <li><img src="assets/images/game/banana.png" alt=""/></li>
+        <li><img src="assets/images/game/banana.png" alt=""/></li>
+        <li>=</li>
+        <li><img src="assets/images/game/greenbanana.png" alt=""/></li>
+        <li>OU</li>
+        <li><img src="assets/images/game/redbanana.png" alt=""/></li>
+    </ul>
+    <p>Accumulez le plus grand nombre de point et tentez de battre votre score maximal !</p>
+    <button id="doit">DO IT</button>
+</div>
+<span>Score: <span id="txt-score"> 0</span></span><br/>
+<span>High Score: <span id="txt-high-score"></span></span>
+<div>
+    <canvas id="bg-canvas" width="1000" height="1000" style="position: absolute; left: 0; top: 0; z-index: 0;"></canvas>
+    <canvas id="board-canvas" width="1000" height="1000" style="position: absolute; left: 0; top: 0; z-index: 1;"></canvas>
+    <canvas id="canvasSup" width="1000" height="1000" style="position: absolute; left: 0; top: 0; z-index: 1;"></canvas>
+</div>
+<script src="assets/js/constant.js"></script>
+<script src="assets/js/entities.js"></script>
+<script src="assets/js/checkforlostgame.js"></script>
+<script src="assets/js/script.js"></script>
+<script src="assets/js/design.js"></script>
+</body>
+
+</html>    
