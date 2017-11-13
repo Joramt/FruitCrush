@@ -13,3 +13,7 @@ Lots of good code snippet but also some rework to do. Definitely have to dig in 
 
 
 [1] : this could change in the future ... or this coudldn't. 
+
+## Contributor
+
+This project being ported into another repo than the original, i must say that this is the result of a collaboration of 2 person, me & Laurent ( @dreamWisdom on GitHub )
